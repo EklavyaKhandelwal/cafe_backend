@@ -1,8 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.js",               // or change to "server.js" if that's your entry point
   "scripts": {
+    "start": "node index.js",       // ✅ Add this line
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,6 @@
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "razorpay": "^2.9.6"
-  }
+    "razorpay": "^2.9.6"
+  }
 }
